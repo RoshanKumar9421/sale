@@ -1,0 +1,39 @@
+#include<stdio.h>
+
+int main() {
+
+char*  calculate_sale(int sale);
+
+if (slae < 500 )
+{
+   return "35";
+}
+else if (sale >= 500 &&sale <=2000)
+{
+    return "1650";
+}
+else if (sale >= 2001 &&sale <= 5000)
+{
+    return "3450";
+}
+else if (sale > 5000)
+{
+   return "6000";
+}
+
+}
+
+int main() {
+
+    int sale;
+
+    printf("Enter the sale amount ", sale);
+    scanf("%d", &sale);
+
+    printf("The total sale%s\n", calculate_sale(amount));
+
+    return 0;
+}
+
+
+
